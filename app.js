@@ -17,6 +17,7 @@ mongoose.connect("mongodb+srv://list1:root@cluster5.jimvqz6.mongodb.net/test",{
 }
 );
 
+
 //Schema
 const sch = {
      District:String,
@@ -38,8 +39,8 @@ app.post("/post", async(req,res) => {
     
 
     const val = await data.save();
-   // res.json(val);
-   res.send("posted");
+      res.json(val);
+   //res.send("posted");
 });
 
 

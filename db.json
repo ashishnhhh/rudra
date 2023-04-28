@@ -1,0 +1,12 @@
+[
+    {
+        "District" : "Kolhapur",
+        "CollegeName" : "Shivaji Maharaj Institute College",
+        "CollegeCodeId" : "A123"
+    },
+    {
+        "District" : "Ahmednagar",
+        "CollegeName" : "Sambaji college",
+        "CollegeCodeId" : "A2"
+    }
+]
